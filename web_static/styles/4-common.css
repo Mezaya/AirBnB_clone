@@ -1,20 +1,26 @@
-/*
- * === Global style ===
- */
+@import url("3-header.css");
+@import url("3-footer.css");
+@import url("6-filters.css");
+@import url("100-places.css");
 
-/* Body style */
+html {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
 body {
     color: #484848;
-    font: 14px Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
 }
 
-/* Container style */
 .container {
-    margin: 30px auto;
     max-width: 1000px;
-}
-
-/* Strong style */
-strong {
-    font-weight: bold;
+    margin: 30px auto;
 }

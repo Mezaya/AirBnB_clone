@@ -1,9 +1,9 @@
-/*
- * === Global style ===
- */
+@import url("2-header.css");
+@import url("2-footer.css");
 
-/* Body style */
 body {
-    margin: 0;
-    padding: 0;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
 }
